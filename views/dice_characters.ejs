@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Dice Chronicles Characters</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Jura:wght@300..700&family=Press+Start+2P&display=swap" rel="stylesheet">
+    <script src="jquery/dist/jquery.min.js"></script>
+    <link rel="stylesheet" href="stylesheets/DC_styles.css">
+    <link rel="stylesheet" href="bootstrap/dist/css/bootstrap.min.css">
+    <link rel="stylesheet" href="stylesheets/DC_styles_characters.css">
+
+
+  
+</head>
+<body>
+    <%- include("./partials/navbar.ejs") %>
+
+    <h1>
+        Encounter a big cast of different heroes with unique backstories and abilities!
+    </h1>
+
+    <div class="container cc">
+        <div id="allCharDiv" class="row cc">
+          <div class="allCharClass col-3">
+            <div>
+              <a href="#sarah_div" class="center"><img class="allCharImg center" src="/images/sarah_neutral.png" alt="Sarah Image">Sarah</a>
+            </div>
+          </div>
+        <div class="allCharClass col-3">
+        <div>
+            <a href="#mia_div" class="center"><img class="allCharImg center" src="/images/mia_neutral.png">Mia</a>
+        </div>
+        </div>
+        <div class="allCharClass col-3">
+              <div>
+                <a href="#simon_div" class="center"><img class="allCharImg center" src="/images/simon_neutral.png" alt="Simon Image">Simon</a>
+              </div>
+        </div>
+        <div class="allCharClass col-3">
+              <div>
+                <a href="#juny_div" class="center"><img class="allCharImg center" src="/images/juny_neutral.png" alt="Juny Image">Juny</a>
+              </div>
+        </div>
+        <div class="allCharClass col-3">
+              <div>
+                <a href="#max_div" class="center"><img class="allCharImg center" src="/images/max_neutral.png" alt="Max Image">Max</a>
+              </div>
+        </div>
+        <div class="allCharClass col-3">
+              <div>
+                <a href="#leon_div" class="center"><img class="allCharImg center" src="/images/leon_neutral.png" alt="Leon Image">Leon</a>
+              </div>
+        </div>
+        <div class="allCharClass col-3">
+              <div>
+                <a href="#wolfgang_div" class="center"><img class="allCharImg center" src="/images/wolfgang_neutral.png" alt="Wolfgang Image">Wolfgang</a>
+              </div>
+        </div>
+        <div class="allCharClass col-3">
+              <div>
+                <a href="#antoinette_div" class="center"><img class="allCharImg center" src="/images/antoinette_neutral.png" alt="Antoinette Image">Antoinette</a>
+              </div>
+        </div>
+        <div class="allCharClass col-3">
+            <div>
+              <a href="#ghould_div" class="center"><img class="allCharImg center" src="/images/ghould_neutral.png" alt="Ghould Image">Ghould/Golden ghoul</a>
+            </div>
+      </div>
+   </div>
+    </div>
+   <br>
+   <br>
+    <%- include("./partials/character_partials/aboutSarah.ejs")%>
+    <br>
+    <%- include("./partials/character_partials/aboutMia.ejs")%>
+    <br>
+    <%- include("./partials/character_partials/aboutSimon.ejs")%>
+    <br>
+    <%- include("./partials/character_partials/aboutJuny.ejs")%>
+    <br>
+    <%- include("./partials/character_partials/aboutMax.ejs")%>
+    <br>
+    <%- include("./partials/character_partials/aboutLeon.ejs")%>
+    <br>
+    <%- include("./partials/character_partials/aboutWolfgang.ejs")%>
+    <br>
+    <%- include("./partials/character_partials/aboutAntoinette.ejs")%>
+    <br>
+    <%- include("./partials/character_partials/aboutGhould.ejs")%>
+
+</body>
+</html>

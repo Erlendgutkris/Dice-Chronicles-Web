@@ -1,0 +1,287 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Dice Chronicles Status Conditions</title>
+    <%-include("./partials/head.ejs")%>
+</head>
+<body>
+    <%-include("./partials/navbar.ejs")%>
+
+    <h1 style="text-align: center; margin-top: 10px; margin-bottom: 0; padding-top: 15px; padding-bottom: 20px;">
+        Status conditions in battles
+    </h1>
+   <div>
+        <p>
+        In addition to dealing damage, some of your elemental attacks will give your opponent a status condition. 
+        While active, the status conditions will affect the battle in different ways as you will see below.  
+        Will you prioritize status conditions that deal extra damage to your opponent? Or will you focus on messing up their dice? The choice is yours. You can also combine different status conditions to unleash a <a href="/dice_battle_team_attacks">team attacks</a> on your opponent
+        </p>
+    </div> 
+    <div>
+        <div class="container" id="green0">
+            <table class="table">
+                <thead>
+                    <tr>
+                        <th>Status Condition</th>
+                        <th>Effect</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td id="green1">Burned
+                            <br>
+                            <img src="/images/conditions/scburned.png" class="statusIcon" alt="burned icon">
+                        </td>
+                        <td id="green3">Take 50 damage every time you roll</td>
+                    </tr>
+                    <tr>
+                        <td id="green2">Soaked
+                            <br>
+                            <img src="/images/conditions/scsoaked.png" class="statusIcon" alt="soaked icon">
+                        </td>
+                        <td id="green4">Every time you try to store dice, there is a 12.5% chance that you will be unable to.</td>
+                    </tr>
+                    <tr>
+                        <td>Hurled
+                            <br>
+                            <img src="/images/conditions/schurled.png" class="statusIcon" alt="hurled icon">
+                        </td>
+                        <td>When you end your turn, there is a 25% probability that all your stored dice suddenly change randomly.</td>
+                    </tr>
+                    <tr>
+                        <td>Poisoned
+                            <br>
+                            <img src="/images/conditions/scpoisoned.png" class="statusIcon" alt="poisoned icon">
+                        </td>
+                        <td>You deal only 75% of your accumulated damage, but still receive 100% if countered. Does not affect team attacks</td>
+                        
+                    </tr>
+                    <tr>
+                        <td>Ionized
+                            <br>
+                            <img src="/images/conditions/scionized.png" class="statusIcon" alt="ionized icon">
+                        </td>
+                        <td>When your turn ends, either by failure or success, the accumulated damage is either boosted by 100% or reduced by 50%. Does not affect team attacks</td>
+                    
+                    </tr>
+                    <tr>
+                        <td>Twisted
+                            <br>
+                            <img src="/images/conditions/sctwisted.png" class="statusIcon" alt="twistedicon">
+                        </td>
+                        <td>No effect on its own - When another condition is added, increases its effect and/or duration.</td>
+                       
+                    </tr>
+                    <tr>
+                        <td>Steaming
+                            <br>
+                            <img src="/images/conditions/scsteaming.png" class="statusIcon" alt="steamingicon">
+                        </td>
+                        <td>Take 150 damage everytime you store dice</td>
+                        
+                    </tr>
+                    <tr>
+                        <td>Burned and hurled
+                            <br>
+                            <img src="/images/conditions/scburnedandhurled.png" class="statusIcon" alt="bunredandhurledicon">
+                        </td>
+                        <td>Take 125 damage everytime you roll</td>
+                        
+                    </tr>
+                    <tr>
+                        <td>Asphyxiated
+                            <br>
+                            <img src="/images/conditions/scasphyxiated.png" class="statusIcon" alt="asphyxiatedicon">
+                        </td>
+                        <td>You may only use 5 dice</td>
+                        
+                    </tr>
+                    <tr>
+                        <td>Overheated
+                            <br>
+                            <img src="/images/conditions/scoverheated.png" class="statusIcon" alt="overheatedicon">
+                        </td>
+                        <td>You can't be counter-attacked</td>
+                        
+                    </tr>
+                    <tr>
+                        <td>Spinning in the vortex
+                            <br>
+                            <img src="/images/conditions/scspinninginthevortex.png" class="statusIcon" alt="spinninginthevortexicon">
+                        </td>
+                        <td>Every time you roll, there is a 25% probability that all your stored dice suddenly change randomly. </td>
+                     
+                    </tr>
+                    <tr>
+                        <td>Intoxicated
+                            <br>
+                            <img src="/images/conditions/scintoxicated.png" class="statusIcon" alt="intoxicatedicon">
+                        </td>
+                        <td>You deal only 50% of your accumulated damage, but gets 100% if countered. Does not affect team attacks</td>
+                        
+                    </tr>
+                    <tr>
+                        <td>Paralyzed
+                            <br>
+                            <img src="/images/conditions/scparalyzed.png" class="statusIcon" alt="paralyzedicon">
+                        </td>
+                        <td>Everytime you roll, there is a 12,5% chance that your turn suddenly ends. </td>
+                        
+                    </tr>
+                    <tr>
+                        <td>Suffocated
+                            <br>
+                            <img src="/images/conditions/scsuffocated.png" class="statusIcon" alt="suffocatedicon">
+                        </td>
+                        <td>You cannot reroll after you have spent your six dice twice.</td>
+                        
+                    </tr>
+                    <tr>
+                        <td>Struck by lightning
+                            <br>
+                            <img src="/images/conditions/scstruckbylightning.png" class="statusIcon" alt="struckbylightningicon">
+                        </td>
+                        <td>You have a 10% probability of suddenly receiving 1000 damage everytime you roll</td>
+                        
+                    </tr>
+                    <tr>
+                        <td>Lab rat
+                            <br>
+                            <img src="/images/conditions/sclabrat.png" class="statusIcon" alt="labraticon">
+                        </td>
+                        <td>When your turn ends, either by failure or success, the accumulated damage is either boosted by 300% or reduced by 75%. Does not affect team attacks</td>
+                        
+                    </tr>
+                    <tr>
+                        <td>Twisted Burned
+                            <br>
+                            <img src="/images/conditions/scburned_t.png" class="statusIcon" alt="burned icon">
+                        </td>
+                        <td>You receive 100 damage every time you roll</td>
+                    </tr>
+                    <tr>
+                        <td>Twisted Soaked
+                            <br>
+                            <img src="/images/conditions/scsoaked_t.png" class="statusIcon" alt="soaked icon">
+                        </td>
+                        <td>Every time you try to store dice, there is a 25% chance that you will be unable to</td>
+                    </tr>
+                    <tr>
+                        <td> Twisted Hurled
+                            <br>
+                            <img src="/images/conditions/schurled_t.png" class="statusIcon" alt="hurled icon">
+                        </td>
+                        <td>When you end your turn, there is a 50% probability that all your stored dice suddenly change randomly</td>
+                    </tr>
+                    <tr>
+                        <td>Twisted Poisoned
+                            <br>
+                            <img src="/images/conditions/scpoisoned_t.png" class="statusIcon" alt="poisoned icon">
+                        </td>
+                        <td>You deal only 50% of your accumulated damage, but still receive 100% if countered. Does not affect team attacks</td>
+                        
+                    </tr>
+                    <tr>
+                        <td>Twisted Ionized
+                            <br>
+                            <img src="/images/conditions/scionized_t.png" class="statusIcon" alt="ionized icon">
+                        </td>
+                        <td>When your turn ends, either by failure or success, the accumulated damage is either boosted by 200% or reduced by 66%. Does not affect team attacks</td>
+                    
+                    </tr>
+                    <tr>
+                        <td>Twisted Steaming
+                            <br>
+                            <img src="/images/conditions/scsteaming_t.png" class="statusIcon" alt="steamingicon">
+                        </td>
+                        <td>Take 300 damage everytime you store dice</td>
+                        
+                    </tr>
+                    <tr>
+                        <td> Twisted Burned and hurled
+                            <br>
+                            <img src="/images/conditions/scburnedandhurled_t.png" class="statusIcon" alt="bunredandhurledicon">
+                        </td>
+                        <td>Take 250 damage everytime you roll</td>
+                        
+                    </tr>
+                    <tr>
+                        <td>Twisted Asphyxiated
+                            <br>
+                            <img src="/images/conditions/scasphyxiated_t.png" class="statusIcon" alt="asphyxiatedicon">
+                        </td>
+                        <td>You can only use 4 dice</td>
+                        
+                    </tr>
+                    <tr>
+                        <td>Twisted Overheated
+                            <br>
+                            <img src="/images/conditions/scoverheated_t.png" class="statusIcon" alt="overheatedicon">
+                        </td>
+                        <td>You can't be counter-attacked when you fail</td>
+                        
+                    </tr>
+                    <tr>
+                        <td>Twisted Spinning in the vortex
+                            <br>
+                            <img src="/images/conditions/scspinninginthevortex_t.png" class="statusIcon" alt="spinninginthevortexicon">
+                        </td>
+                        <td>Every time you roll, there is a 25% probability that all your stored dice suddenly change randomly</td>
+                     
+                    </tr>
+                    <tr>
+                        <td>Twisted Intoxicated
+                            <br>
+                            <img src="/images/conditions/scintoxicated_t.png" class="statusIcon" alt="intoxicatedicon">
+                        </td>
+                        <td>You deal only 20% of your accumulated damage, but receive 100% if countered. Does not affect team attacks</td>
+                        
+                    </tr>
+                    <tr>
+                        <td>Twisted Paralyzed
+                            <br>
+                            <img src="/images/conditions/scparalyzed_t.png" class="statusIcon" alt="paralyzedicon">
+                        </td>
+                        <td>Everytime you roll, there is a 25% chance that your turn suddenly ends</td>
+                        
+                    </tr>
+                    <tr>
+                        <td>Twisted Suffocated
+                            <br>
+                            <img src="/images/conditions/scsuffocated_t.png" class="statusIcon" alt="suffocatedicon">
+                        </td>
+                        <td>You cannot roll all six dice again</td>
+                        
+                    </tr>
+                    <tr>
+                        <td>Twisted Struck by lightning
+                            <br>
+                            <img src="/images/conditions/scstruckbylightning_t.png" class="statusIcon" alt="struckbylightningicon">
+                        </td>
+                        <td>You have a 10% probability of suddenly receiving 3000 damage everytime you roll</td>
+                        
+                    </tr>
+                    <tr>
+                        <td>Twisted Lab rat
+                            <br>
+                            <img src="/images/conditions/sclabrat_t.png" class="statusIcon" alt="labraticon">
+                        </td>
+                        <td>When your turn ends, either by failure or success, the accumulated damage is either boosted by 500% or reduced by 100%. Does not affect team attacks</td>
+                    </tr>
+                </tbody>
+            </table>
+        </div>
+    </div>
+
+    <div>
+        <p>
+           
+        </p>
+    </div>
+    
+    
+
+
+    
+</body>
+</html>

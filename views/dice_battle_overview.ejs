@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Dice Chronicles Battle Overview</title>
+    <%-include("./partials/head.ejs")%>
+</head>
+<body>
+    <%-include("./partials/navbar.ejs")%>
+
+    <h1 style="text-align: center; margin-top: 10px; margin-bottom: 0; padding-top: 15px; padding-bottom: 20px;">
+        Overview: The basics of the battles
+    </h1>
+    <div>
+        <img src="/images/battleWithDice.png" class="center" alt="This is supposed to be an awesome image with two anime hoereos fighting it out with swords and dice.">
+    </div>
+
+    <div class="container">
+        <div class="row">
+            <div id="pDiv" class="col-12">
+                <h2>General:</h2>
+                <p>
+                    The main feature of Dice Chronicles is the strategic, gamble-based battles using dice. 
+                    Each hero has their own unique set of 6 dice that's used for building combos and racking up damage.
+                    <br>
+                    <br>
+                    Short version: 
+                    <br>
+                    Try to get combinations of dice you can see in the table (Under <a href="#eDiv">Example</a> below). Everything not resulting in "0" is a valid combination. You can roll as many times as you want, but you have to save at least one die after each throw. If you have a combination that gives 0 points at the end of your turn, you receive the rest of the damage you have accumulated yourself. 
+                    <br>
+                    <br>
+                    Longer version: 
+                    <br>
+                    During your turn, you can roll as many times as you want, as long as you are able to store/save at least one die after each roll. 
+                    If you manage to build a valid combo with all six dice, you may start over again, keeping and increasing your accumulated damage. 
+                    You can also choose to roll the dice of a different hero in your team for the next round, trying to achieve <a href="/dice_battle_team_attacks"> team combos</a>
+                    or maybe play a little safer. Theoretically, you can always accumulate enough damage to one-hit-KO your opponent, 
+                    but going for it would be a huge gamble, as we will soon see. 
+                    <br>
+                    <br>
+                    There are two ways in which your turn may end:<br>
+                    1: You choose to end your turn<br>
+                    <!-- 2: After your last roll (or rather after saving at least one die after your last roll), you are unable to (use all your saved dice in a valid combo.<br> -->
+                    2: Your turn ends due to the effect of items or status conditions
+                    <br>
+                    <br>
+                    If all your saved dice are part of a combo when your turn ends, you attack your opponent and deal the accumulated damage. 
+                    If there are saved dice that are not part of a combo (a “stray die”), your opponent counterattacks, and you receive all the accumulated damage yourself. 
+                    (Items and status conditions may affect this in different ways, but this is the main principle). 
+                    <br>
+                </p>
+            </div>
+            <!-- <div class="col-1"></div> -->
+            <div id="eDiv" class="col-12">
+                <h2>Example:</h2>
+                <img src="/images/1.png">
+                <p>
+                    This is Simon's first roll. We can see from the table that the tornado-die deals the most damage if we get a combo. 
+                    So far, we've got nothing to lose, so we will save that one die and roll again. 
+                </p>
+                <img src="/images/2.png">
+                <p>
+                    Ouch, we did not roll a single other tornado. 
+                    We can save a valid combo that deals 400 damage though, but doing so would make it very hard to get the 600-combo
+                    (the two remaining dice both would need to be a tornado. If not, we have a stray die and deal 400 damage to ourselves). 
+                    Luckily, we can save the hand or foot, because both are valid on their own, as we can see from the table (Only one foot deals 100 dmg. Everything not dealing 0 dmg is valid). 
+                    We save the foot and roll again. 
+                </p>
+                <img src="/images/3.png">
+                <p>
+                    We rolled another tornado. We could save a hand as well, but we want to give ourselves as many chances as possible to get another tornado.
+                    We save that one die and roll again. 
+                </p>
+                <img src="/images/4.png">
+                <p>
+                    Yes! Another tornado! Now we can save that as well. 
+                </p>
+                <img src="/images/5.png">
+                <p>
+                    Now, all the dice we have saved are valid combos (600 + 100). 
+                    This means that we can end our turn and deal 700 damage to our opponent. 
+                    We may also roll again, if we are brave enough. Let's do it for the sake of this example. 
+                </p>
+                <img src="/images/6.png">
+                <p>
+                    Ooops… Should not have done that. We have to save at least one die after each roll before we can end our turn. 
+                    As we can see from the table, we are unable to make a combo out of any of the remaining dice. 
+                    Our combos failed, and we receive the 700 damage instead. Should have played it safe this time…
+                </p>
+            </div>
+        </div>
+    </div>
+</body>
+</html>

@@ -1,0 +1,22 @@
+{
+  "name": "dice_chronicles_web_page",
+  "version": "1.0.0",
+  "description": "Overveiw of Dice Chronicles",
+  "main": "app.js",
+  "scripts": {
+    "start": "node ./bin/www"
+  },
+  "author": "Erlend Guttulsrud Kristiansen",
+  "license": "ISC",
+  "dependencies": {
+    "@cyclic.sh/dynamodb": "^0.0.35",
+    "bootstrap": "^5.3.0",
+    "dotenv": "^16.3.1",
+    "ejs": "^3.1.9",
+    "express": "^4.18.2",
+    "fs": "^0.0.1-security",
+    "https": "^1.0.0",
+    "jquery": "^3.7.0",
+    "path": "^0.12.7"
+  }
+}

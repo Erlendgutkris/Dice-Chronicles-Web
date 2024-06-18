@@ -1,0 +1,40 @@
+
+a{
+  text-shadow: 0 0 10px #00FFFF;
+  color: #FFFFFF;
+}
+h1{
+  text-shadow: 0 0 10px #00FFFF;
+  color: #FFFFFF;
+}
+.nav-item{
+  font-size: 20px;
+  text-shadow: 0 0 10px #00FFFF;
+  color: #FFFFFF;
+  
+}
+.nav-link{
+  text-shadow: 0 0 10px #00FFFF;
+  color: #FFFFFF;
+  
+}
+.dropdown-menu {
+  font-family: Jura; 
+  text-shadow: 0 0 10px #00FFFF;
+  color: #FFFFFF;
+  background-color: #013539;
+}
+.dropdown-item{
+  text-shadow: 0 0 10px #00FFFF;
+  color: #FFFFFF;
+}
+#togglerButton{
+  text-shadow: 0 0 10px #00FFFF;
+  color: #FFFFFF;
+  background-color: #E09A11; 
+}
+.navbar-brand{
+  font-size: 20px;
+  text-shadow: 0 0 10px #00FFFF;
+  color: #FFFFFF;
+}
