@@ -1,12 +1,13 @@
 const express = require("express");
 const path = require("path");
 
+const storyRouter = require("./routes/dice_story");
 const battleOverviewRouter = require("./routes/dice_battle_overview");
 const battleStatusConditionsRouter = require("./routes/dice_battle_status_conditions");
 const battleTeamAttacksRouter = require("./routes/dice_battle_team_attacks");
 const charactersRouter = require("./routes/dice_characters");
 const frontPageRouter = require("./routes/dice_front_page");
-const storyRouter = require("./routes/dice_story");
+
 
 const app = express();
 
