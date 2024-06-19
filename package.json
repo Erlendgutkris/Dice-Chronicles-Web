@@ -2,7 +2,7 @@
   "name": "dice_chronicles_web_page",
   "version": "1.0.0",
   "description": "Overveiw of Dice Chronicles",
-  "main": "app.js",
+  "main": "index.js",
   "scripts": {
     "start": "node ./bin/www"
   },
