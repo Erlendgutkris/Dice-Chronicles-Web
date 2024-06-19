@@ -27,4 +27,4 @@ app.use("/dice_story", storyRouter);
 
 module.exports = app;
 
-//Bare for å pushe no for deployment
+//Bare for å pushe no for deployment igjen 
