@@ -26,3 +26,5 @@ app.use("/", frontPageRouter);
 app.use("/dice_story", storyRouter);
 
 module.exports = app;
+
+//Bare for å pushe no for deployment
