@@ -1,0 +1,268 @@
+[
+    {
+      "pairing": ["Burned", "Soaked"],
+      "attack": "Steam explosion",
+      "damage": 1250,
+      "newStatus": "Steaming"
+    },
+    {
+      "pairing": ["Burned", "Hurled"],
+      "attack": "Fire tornado",
+      "damage": 1000,
+      "newStatus": "Burned and hurled"
+    },
+    {
+      "pairing": ["Burned", "Poisoned"],
+      "attack": "Chemical reaction",
+      "damage": 1000,
+      "newStatus": "Asphyxiated"
+    },
+    {
+      "pairing": ["Burned", "Ionized"],
+      "attack": "Firework mayhem",
+      "damage": 1500,
+      "newStatus": "Overheated"
+    },
+    {
+      "pairing": ["Soaked", "Hurled"],
+      "attack": "Vortex",
+      "damage": 1250,
+      "newStatus": "Spinning in the vortex"
+    },
+    {
+      "pairing": ["Soaked", "Poisoned"],
+      "attack": "Poison wave",
+      "damage": 1250,
+      "newStatus": "Intoxicated"
+    },
+    {
+      "pairing": ["Soaked", "Ionized"],
+      "attack": "Electrocution",
+      "damage": 1250,
+      "newStatus": "Paralyzed"
+    },
+    {
+      "pairing": ["Hurled", "Poisoned"],
+      "attack": "War crime",
+      "damage": 1000,
+      "newStatus": "Suffocated"
+    },
+    {
+      "pairing": ["Hurled", "Ionized"],
+      "attack": "Thunderstorm",
+      "damage": 1500,
+      "newStatus": "Struck by lightning"
+    },
+    {
+      "pairing": ["Poisoned", "Ionized"],
+      "attack": "Ethics gone",
+      "damage": 1500,
+      "newStatus": "Labrat"
+    },
+    {
+        "pairing": ["Ionized", "Burned"],
+        "attack": "Firework mayhem",
+        "damage": 1500,
+        "newStatus": "Overheated"
+      },
+      {
+        "pairing": ["Ionized", "Soaked"],
+        "attack": "Electrocution",
+        "damage": 1250,
+        "newStatus": "Paralyzed"
+      },
+      {
+        "pairing": ["Ionized", "Hurled"],
+        "attack": "Thunderstorm",
+        "damage": 1500,
+        "newStatus": "Struck by lightning"
+      },
+      {
+        "pairing": ["Ionized", "Poisoned"],
+        "attack": "Ethics gone",
+        "damage": 1500,
+        "newStatus": "Labrat"
+      },
+      {
+        "pairing": ["Steaming", "Hurled"],
+        "attack": "Steam tornado",
+        "damage": 3000,
+        "newStatus": "---"
+      },
+      {
+        "pairing": ["Steaming", "Poisoned"],
+        "attack": "Poisoncloud panic",
+        "damage": 3000,
+        "newStatus": "---"
+      },
+      {
+        "pairing": ["Steaming", "Ionized"],
+        "attack": "Thundercloud",
+        "damage": 3000,
+        "newStatus": "---"
+      },
+      {
+        "pairing": ["Burned and hurled", "Soaked"],
+        "attack": "Steam tornado",
+        "damage": 3000,
+        "newStatus": "---"
+      },
+      {
+        "pairing": ["Burned and hurled", "Poisoned"],
+        "attack": "Chemical catastrpohy",
+        "damage": 3000,
+        "newStatus": "---"
+      },
+      {
+        "pairing": ["Burned and hurled", "Ionized"],
+        "attack": "Fiery voltage",
+        "damage": 3000,
+        "newStatus": "---"
+      },
+      {
+        "pairing": ["Asphyxiated", "Soaked"],
+        "attack": "Lethal injection",
+        "damage": 3000,
+        "newStatus": "---"
+      },
+      {
+        "pairing": ["Asphyxiated", "Hurled"],
+        "attack": "Poisonous tornado",
+        "damage": 3000,
+        "newStatus": "---"
+      },
+      {
+        "pairing": ["Asphyxiated", "Ionized"],
+        "attack": "Good night",
+        "damage": 3000,
+        "newStatus": "---"
+      },
+      {
+        "pairing": ["Overheated", "Soaked"],
+        "attack": "Steam explosion X",
+        "damage": 5000,
+        "newStatus": "---"
+      },
+      {
+        "pairing": ["Overheated", "Hurled"],
+        "attack": "Fire tornado X",
+        "damage": 5000,
+        "newStatus": "---"
+      },
+      {
+        "pairing": ["Overheated", "Poisoned"],
+        "attack": "Chemical reaction X",
+        "damage": 5000,
+        "newStatus": "---"
+      },
+      {
+        "pairing": ["Spinning in the vortex", "Burned"],
+        "attack": "Steam tornado",
+        "damage": 3000,
+        "newStatus": "---"
+      },
+      {
+        "pairing": ["Spinning in the vortex", "Poisoned"],
+        "attack": "Poison catastrophy",
+        "damage": 3000,
+        "newStatus": "---"
+      },
+      {
+        "pairing": ["Spinning in the vortex", "Ionized"],
+        "attack": "Toast",
+        "damage": 3000,
+        "newStatus": "---"
+      },
+      {
+        "pairing": ["Intoxicated", "Burned"],
+        "attack": "Reduce to powder",
+        "damage": 3000,
+        "newStatus": "---"
+      },
+      {
+        "pairing": ["Intoxicated", "Hurled"],
+        "attack": "Tummy twoister",
+        "damage": 3000,
+        "newStatus": "---"
+      },
+      {
+        "pairing": ["Intoxicated", "Ionized"],
+        "attack": "Dissolve",
+        "damage": 3000,
+        "newStatus": "---"
+      },
+      {
+        "pairing": ["Paralyzed", "Burned"],
+        "attack": "Frantic firework",
+        "damage": 3000,
+        "newStatus": "---"
+      },
+      {
+        "pairing": ["Paralyzed", "Hurled"],
+        "attack": "Wild ride",
+        "damage": 3000,
+        "newStatus": "---"
+      },
+      {
+        "pairing": ["Paralyzed", "Poisoned"],
+        "attack": "Ethics far out the window",
+        "damage": 3000,
+        "newStatus": "---"
+      },
+      {
+        "pairing": ["Suffocated", "Burned"],
+        "attack": "So long lungs",
+        "damage": 3000,
+        "newStatus": "---"
+      },
+      {
+        "pairing": ["Suffocated", "Soaked"],
+        "attack": "Drown town",
+        "damage": 3000,
+        "newStatus": "---"
+      },
+      {
+        "pairing": ["Suffocated", "Ionized"],
+        "attack": "No hope",
+        "damage": 3000,
+        "newStatus": "---"
+      },
+      {
+        "pairing": ["Struck by lightning", "Burned"],
+        "attack": "KaBoOOmM",
+        "damage": 3000,
+        "newStatus": "---"
+      },
+      {
+        "pairing": ["Struck by lightning", "Soaked"],
+        "attack": "Toast",
+        "damage": 3000,
+        "newStatus": "---"
+      },
+      {
+        "pairing": ["Struck by lightning", "Poisoned"],
+        "attack": "Ethics far out the window",
+        "damage": 3000,
+        "newStatus": "---"
+      },
+      {
+        "pairing": ["Labrat", "Burned"],
+        "attack": "Firework mayhem",
+        "damage": 4000,
+        "newStatus": "---"
+      },
+      {
+        "pairing": ["Labrat", "Soaked"],
+        "attack": "Electrocution X",
+        "damage": 4000,
+        "newStatus": "---"
+      },
+      {
+        "pairing": ["Labrat", "Hurled"],
+        "attack": "Thunderstorm X",
+        "damage": 4000,
+        "newStatus": "---"
+      }
+    
+  ]
+  
