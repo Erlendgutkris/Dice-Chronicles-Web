@@ -1,0 +1,1 @@
+Web page with tutorials, story- and character info etc. for the app in development "Dice Chronicles"
