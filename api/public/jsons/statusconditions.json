@@ -37,7 +37,7 @@
       },
       {
         "name": "Burned and hurled",
-        "icon": "/images/conditions/scburnedandhurled.png",
+        "icon": "/images/conditions/scburned and hurled.png",
         "effect": "Take 125 damage everytime you roll"
       },
       {
