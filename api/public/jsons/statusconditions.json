@@ -1,0 +1,160 @@
+{
+    "status_conditions": [
+      {
+        "name": "Burned",
+        "icon": "/images/conditions/scburned.png",
+        "effect": "Take 50 damage every time you roll"
+      },
+      {
+        "name": "Soaked",
+        "icon": "/images/conditions/scsoaked.png",
+        "effect": "Every time you try to store dice, there is a 12.5% chance that you will be unable to."
+      },
+      {
+        "name": "Hurled",
+        "icon": "/images/conditions/schurled.png",
+        "effect": "When you end your turn, there is a 25% probability that all your stored dice suddenly change randomly."
+      },
+      {
+        "name": "Poisoned",
+        "icon": "/images/conditions/scpoisoned.png",
+        "effect": "You deal only 75% of your accumulated damage, but still receive 100% if countered. Does not affect team attacks"
+      },
+      {
+        "name": "Ionized",
+        "icon": "/images/conditions/scionized.png",
+        "effect": "When your turn ends, either by failure or success, the accumulated damage is either boosted by 100% or reduced by 50%. Does not affect team attacks"
+      },
+      {
+        "name": "Twisted",
+        "icon": "/images/conditions/sctwisted.png",
+        "effect": "No effect on its own - When another condition is added, increases its effect and/or duration."
+      },
+      {
+        "name": "Steaming",
+        "icon": "/images/conditions/scsteaming.png",
+        "effect": "Take 150 damage everytime you store dice"
+      },
+      {
+        "name": "Burned and hurled",
+        "icon": "/images/conditions/scburnedandhurled.png",
+        "effect": "Take 125 damage everytime you roll"
+      },
+      {
+        "name": "Asphyxiated",
+        "icon": "/images/conditions/scasphyxiated.png",
+        "effect": "You may only use 5 dice"
+      },
+      {
+        "name": "Overheated",
+        "icon": "/images/conditions/scoverheated.png",
+        "effect": "You can't be counter-attacked"
+      },
+      {
+        "name": "Spinning in the vortex",
+        "icon": "/images/conditions/scspinninginthevortex.png",
+        "effect": "Every time you roll, there is a 25% probability that all your stored dice suddenly change randomly."
+      },
+      {
+        "name": "Intoxicated",
+        "icon": "/images/conditions/scintoxicated.png",
+        "effect": "You deal only 50% of your accumulated damage, but gets 100% if countered. Does not affect team attacks"
+      },
+      {
+        "name": "Paralyzed",
+        "icon": "/images/conditions/scparalyzed.png",
+        "effect": "Everytime you roll, there is a 12.5% chance that your turn suddenly ends."
+      },
+      {
+        "name": "Suffocated",
+        "icon": "/images/conditions/scsuffocated.png",
+        "effect": "You cannot reroll after you have spent your six dice twice."
+      },
+      {
+        "name": "Struck by lightning",
+        "icon": "/images/conditions/scstruckbylightning.png",
+        "effect": "You have a 10% probability of suddenly receiving 1000 damage everytime you roll"
+      },
+      {
+        "name": "Lab rat",
+        "icon": "/images/conditions/sclabrat.png",
+        "effect": "When your turn ends, either by failure or success, the accumulated damage is either boosted by 300% or reduced by 75%. Does not affect team attacks"
+      },
+      {
+        "name": "Twisted Burned",
+        "icon": "/images/conditions/scburned_t.png",
+        "effect": "You receive 100 damage every time you roll"
+      },
+      {
+        "name": "Twisted Soaked",
+        "icon": "/images/conditions/scsoaked_t.png",
+        "effect": "Every time you try to store dice, there is a 25% chance that you will be unable to"
+      },
+      {
+        "name": "Twisted Hurled",
+        "icon": "/images/conditions/schurled_t.png",
+        "effect": "When you end your turn, there is a 50% probability that all your stored dice suddenly change randomly"
+      },
+      {
+        "name": "Twisted Poisoned",
+        "icon": "/images/conditions/scpoisoned_t.png",
+        "effect": "You deal only 50% of your accumulated damage, but still receive 100% if countered. Does not affect team attacks"
+      },
+      {
+        "name": "Twisted Ionized",
+        "icon": "/images/conditions/scionized_t.png",
+        "effect": "When your turn ends, either by failure or success, the accumulated damage is either boosted by 200% or reduced by 66%. Does not affect team attacks"
+      },
+      {
+        "name": "Twisted Steaming",
+        "icon": "/images/conditions/scsteaming_t.png",
+        "effect": "Take 300 damage everytime you store dice"
+      },
+      {
+        "name": "Twisted Burned and hurled",
+        "icon": "/images/conditions/scburnedandhurled_t.png",
+        "effect": "Take 250 damage everytime you roll"
+      },
+      {
+        "name": "Twisted Asphyxiated",
+        "icon": "/images/conditions/scasphyxiated_t.png",
+        "effect": "You can only use 4 dice"
+      },
+      {
+        "name": "Twisted Overheated",
+        "icon": "/images/conditions/scoverheated_t.png",
+        "effect": "You can't be counter-attacked when you fail"
+      },
+      {
+        "name": "Twisted Spinning in the vortex",
+        "icon": "/images/conditions/scspinninginthevortex_t.png",
+        "effect": "Every time you roll, there is a 25% probability that all your stored dice suddenly change randomly"
+      },
+      {
+        "name": "Twisted Intoxicated",
+        "icon": "/images/conditions/scintoxicated_t.png",
+        "effect": "You deal only 20% of your accumulated damage, but receive 100% if countered. Does not affect team attacks"
+      },
+      {
+        "name": "Twisted Paralyzed",
+        "icon": "/images/conditions/scparalyzed_t.png",
+        "effect": "Everytime you roll, there is a 25% chance that your turn suddenly ends"
+      },
+      {
+        "name": "Twisted Suffocated",
+        "icon": "/images/conditions/scsuffocated_t.png",
+        "effect": "You cannot roll all six dice again"
+      },
+      {
+        "name": "Twisted Struck by lightning",
+        "icon": "/images/conditions/scstruckbylightning_t.png",
+        "effect": "You have a 10% probability of suddenly receiving 3000 damage everytime you roll"
+      },
+      {
+        "name": "Twisted Lab rat",
+        "icon": "/images/conditions/sclabrat_t.png",
+        "effect": "When your turn ends, either by failure or success, the accumulated damage is either boosted by 500% or reduced by 100%. Does not affect team attacks"
+      }
+    ]
+  }
+  
