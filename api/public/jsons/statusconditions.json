@@ -52,7 +52,7 @@
       },
       {
         "name": "Spinning in the vortex",
-        "icon": "/images/conditions/scspinninginthevortex.png",
+        "icon": "/images/conditions/scspinning in the vortex.png",
         "effect": "Every time you roll, there is a 25% probability that all your stored dice suddenly change randomly."
       },
       {
@@ -72,7 +72,7 @@
       },
       {
         "name": "Struck by lightning",
-        "icon": "/images/conditions/scstruckbylightning.png",
+        "icon": "/images/conditions/scstruck by lightning.png",
         "effect": "You have a 10% probability of suddenly receiving 1000 damage everytime you roll"
       },
       {
@@ -112,7 +112,7 @@
       },
       {
         "name": "Twisted Burned and hurled",
-        "icon": "/images/conditions/scburnedandhurled_t.png",
+        "icon": "/images/conditions/scburned and hurled_t.png",
         "effect": "Take 250 damage everytime you roll"
       },
       {
@@ -127,7 +127,7 @@
       },
       {
         "name": "Twisted Spinning in the vortex",
-        "icon": "/images/conditions/scspinninginthevortex_t.png",
+        "icon": "/images/conditions/scspinning in the vortex_t.png",
         "effect": "Every time you roll, there is a 25% probability that all your stored dice suddenly change randomly"
       },
       {
@@ -147,7 +147,7 @@
       },
       {
         "name": "Twisted Struck by lightning",
-        "icon": "/images/conditions/scstruckbylightning_t.png",
+        "icon": "/images/conditions/scstruck by lightning_t.png",
         "effect": "You have a 10% probability of suddenly receiving 3000 damage everytime you roll"
       },
       {
