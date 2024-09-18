@@ -127,7 +127,7 @@ p {
 
 .cp {
   font-family: Jura; 
-  font-size: 2.3vw; 
+  font-size: 3.3vw; 
   padding-top: 0.2vw; 
   padding-left: 1vw; 
   padding-right: 1vw; 
@@ -165,7 +165,7 @@ p {
 
 #allCharDiv a {
   font-family: Jura; 
-  font-size: 1.5vw; 
+  font-size: 2.5vw; 
   padding-top: 0vw; 
   padding-left: 1vw; 
   padding-right: 1vw; 
@@ -188,7 +188,7 @@ a{
   padding-right: 1vw; 
 }
 .allCharImg{
-  height:70px;
+
   width:70px;
 
 }
