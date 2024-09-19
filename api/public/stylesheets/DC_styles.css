@@ -163,14 +163,14 @@ p {
 }
 
 
-#allCharDiv a {
+/*#allCharDiv a {
   font-family: Jura; 
   font-size: 2.5vw; 
   padding-top: 0vw; 
   padding-left: 1vw; 
   padding-right: 1vw; 
   text-align: center;
-}
+}*/
 
 a{
   text-shadow: 0 0 2px #00FFFF;
@@ -187,21 +187,21 @@ a{
   padding-left: 1vw; 
   padding-right: 1vw; 
 }
-.allCharImg{
+/*.allCharImg{
 
   width:70px;
 
-}
+}*/
 .chardiv{
   margin-top: 3vw; 
   display: inline-flex; 
   justify-content: space-evenly;
 }
-#allCharDiv{
+/*#allCharDiv{
   margin-top: 3vw; 
   display: inline-flex; 
   justify-content: space-evenly;
-}
+}*/
 .nav-item{
   font-size: 20px;
   text-shadow: 0 0 10px #00FFFF;

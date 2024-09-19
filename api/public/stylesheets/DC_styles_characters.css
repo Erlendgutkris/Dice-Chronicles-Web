@@ -38,3 +38,21 @@ h1{
   text-shadow: 0 0 10px #00FFFF;
   color: #FFFFFF;
 }
+.allCharImg{
+
+  width:70px;
+
+}
+#allCharDiv{
+  margin-top: 3vw; 
+  display: inline-flex; 
+  justify-content: space-evenly;
+}
+#allCharDiv a {
+  font-family: Jura; 
+  font-size: 2.5vw; 
+  padding-top: 0vw; 
+  padding-left: 1vw; 
+  padding-right: 1vw; 
+  text-align: center;
+}
